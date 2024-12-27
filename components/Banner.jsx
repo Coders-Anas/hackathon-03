@@ -20,11 +20,9 @@ const Banner = () => {
         </a>
       </div>
       <div className="w-full h-[60%] lg:w-1/2">
-        <Image
+        <img
           alt="banner Image"
           src={"/images/image10.png"}
-          width={400}
-          height={400}
           className="h-full mx-auto"
         />
       </div>

@@ -39,12 +39,10 @@ const ExploreStylesSection = () => {
             </h2>
           </div>
           <div className="block relative aspect-[3/4] lg:aspect-square w-full overflow-hidden">
-            <Image
+            <img
               src="/images/image3.png"
               alt="Featured Style - Modern Orange Chair"
-              fill
               className="object-cover hover:scale-105 transition-transform duration-300"
-              // sizes="(max-width: 768px) 100vw, 50vw"
             />
           </div>
         </div>
@@ -58,12 +56,10 @@ const ExploreStylesSection = () => {
                 className="relative block overflow-hidden group bg-white hover:shadow-lg transition-shadow duration-300"
               >
                 <div className="aspect-square relative w-full">
-                  <Image
+                  <img
                     src={`${product.imageUrl}?auto=format&fit=crop&w=400&q=80`}
                     alt={product.title}
-                    fill
                     className="object-cover w-full h-full"
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />
                   <div className="absolute inset-x-0 bottom-0 p-4 bg-black/90 opacity-0 group-hover:opacity-100 transition duration-300">
                     <div className="space-y-1 flex items-center justify-between">

@@ -7,9 +7,7 @@ const CartCard = ({ imageUrl, name, variant, size, quantity, mrp }) => {
   return (
     <div className="flex gap-4 sm:gap-6 pb-7 border-b">
       <div className="w-28 sm:w-36 h-28 sm:h-36 bg-gray-100">
-        <Image
-          width={200}
-          height={200}
+        <img
           src={imageUrl}
           alt={name}
           className="w-full h-full object-cover"

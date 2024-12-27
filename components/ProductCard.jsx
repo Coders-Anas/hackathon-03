@@ -18,9 +18,7 @@ const ProductCard = ({ image, title, price, label, cart = true }) => {
             {label}
           </span>
         )}
-        <Image
-          width={500}
-          height={500}
+        <img
           src={image}
           alt={title}
           className="w-full aspect-square object-cover"
